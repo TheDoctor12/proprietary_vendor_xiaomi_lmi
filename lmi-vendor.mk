@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/det_quantize.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/det_quantize.dlc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eisoverridesettings.txt \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/eyelineblush.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eyelineblush.cng \
+    vendor/xiaomi/lmi/proprietary/vendor/etc/camera/facedetectpp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/facedetectpp_0_5_2_model \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/goturn_search_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goturn_search_dsp.dlc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/goturn_target_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goturn_target_dsp.dlc \
     vendor/xiaomi/lmi/proprietary/vendor/etc/camera/hdr_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdr_ui9_params.config \
@@ -293,6 +294,7 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix_fod6.default \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     vendor.xiaomi.hardware.motor@1.0-impl \
+    libFaceDetectpp-0.5.2 \
     libHalSuperSensorServer \
     libMIAIHDRhvx_interface \
     libSNPE \
@@ -341,6 +343,7 @@ PRODUCT_PACKAGES += \
     libdng_sdk2vendor \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
+    libfacedet \
     libflaw \
     libfocus \
     libft2vendor \
