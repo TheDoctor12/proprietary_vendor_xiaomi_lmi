@@ -448,5 +448,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0-service \
     init.qcom.sensors \
     init.qti.chg_policy \
+    nv_mac \
     sensors.qti \
     sscrpcd
